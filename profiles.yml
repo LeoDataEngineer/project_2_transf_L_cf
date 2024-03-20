@@ -1,7 +1,7 @@
 project_final:
   outputs:
     dev:
-       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
       database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
       password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
       role: ACCOUNTADMIN
