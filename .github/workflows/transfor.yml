@@ -16,7 +16,7 @@ jobs:
           cache: "pip" # caching pip dependencies
       - run: pip install -r requirements.txt
       - run: |
-          dbt run -s "tag: project final /codigo_facilito" -t  dev
+          dbt run -s "tag:profecto_codigo_facilito" -t  dev
         env:
             SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
             SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
