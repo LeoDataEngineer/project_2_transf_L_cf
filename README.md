@@ -1,5 +1,5 @@
 # Proyecto de trasnformación en dbt.
-## Nuevo Servicio para la Aplicación Móvil de Baecobici.com.ar. Se realiza una traformación a partir de dos tablas que existen en snowflake, solicitada por el equido de ML, para predecir la disponiblidad de bicicletas.
+## Nuevo Servicio para la Aplicación Móvil. Se realiza una traformación a partir de dos tablas que existen en snowflake, solicitada por el equido de ML, para predecir la disponiblidad de bicicletas.
 
 ## Proceso:
 ### Se instalara el paquete: `dbt-snowflake`. 
